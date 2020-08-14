@@ -130,7 +130,7 @@ dropDatabase
     : DROP DATABASE (IF EXISTS)? name
     ;
 
- createDatabaseSpecification_
+createDatabaseSpecification_
     :  createdbOptName (EQ_)? (signedIconst | booleanOrString | DEFAULT)
     ;
 
